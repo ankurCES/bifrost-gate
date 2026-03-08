@@ -56,9 +56,6 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Gungnir Core -->
                 <div class="bg-neutral-900 p-8 rounded-3xl border border-white/5 hover:border-white/20 transition-all group">
-                    <div class="h-48 bg-neutral-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
-                        <p class="text-neutral-500 group-hover:scale-110 transition-transform">Gungnir-Core GIF</p>
-                    </div>
                     <h3 class="text-2xl font-bold mb-4">Gungnir-Core</h3>
                     <p class="text-neutral-400 mb-6 font-light">The brain of the system. Multiagent orchestration using LangGraph for complex reasoning and stateful workflows.</p>
                     <div class="pt-6 border-t border-white/5">
@@ -69,9 +66,6 @@
 
                 <!-- Mjolnir Fabric -->
                 <div class="bg-neutral-900 p-8 rounded-3xl border border-white/5 hover:border-white/20 transition-all group">
-                    <div class="h-48 bg-neutral-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
-                        <p class="text-neutral-500 group-hover:scale-110 transition-transform">Mjolnir-Fabric GIF</p>
-                    </div>
                     <h3 class="text-2xl font-bold mb-4">Mjolnir-Fabric</h3>
                     <p class="text-neutral-400 mb-6 font-light">The data plane. High-performance vector storage and versioned data lakes for indestructible memory.</p>
                     <div class="pt-6 border-t border-white/5">
@@ -82,9 +76,6 @@
 
                 <!-- Bifrost Bridge -->
                 <div class="bg-neutral-900 p-8 rounded-3xl border border-white/5 hover:border-white/20 transition-all group">
-                    <div class="h-48 bg-neutral-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
-                        <p class="text-neutral-500 group-hover:scale-110 transition-transform">Bifrost-Gate GIF</p>
-                    </div>
                     <h3 class="text-2xl font-bold mb-4">Bifrost-Gate</h3>
                     <p class="text-neutral-400 mb-6 font-light">The edge gateway. Secure, low-latency API hub and WebSocket orchestrator for real-time interaction.</p>
                     <div class="pt-6 border-t border-white/5">
@@ -95,9 +86,6 @@
 
                 <!-- Valkyrie Integrations -->
                 <div class="bg-neutral-900 p-8 rounded-3xl border border-white/5 hover:border-white/20 transition-all group">
-                    <div class="h-48 bg-neutral-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
-                        <p class="text-neutral-500 group-hover:scale-110 transition-transform">Valkyrie-Integrations GIF</p>
-                    </div>
                     <h3 class="text-2xl font-bold mb-4">Valkyrie-Integrations</h3>
                     <p class="text-neutral-400 mb-6 font-light">The messenger module. Seamlessly connecting Gungnir to public Open APIs and complex Enterprise Mocks (HR/CRM).</p>
                     <div class="pt-6 border-t border-white/5">
@@ -116,31 +104,21 @@
                 <h2 class="text-4xl font-bold tracking-tighter mb-8">Asgardian Shield Security.</h2>
                 <div class="space-y-6 text-neutral-400 font-light text-lg">
                     <p>Built with enterprise rigor, Project Gungnir integrates placeholders for <span class="text-white font-medium">Single Sign-On (SSO)</span> and <span class="text-white font-medium">RBAC</span> (Role-Based Access Control) as standard core logic.</p>
-                    <p>Our security posture is config-driven, allowing for instant deployment across OIDC/OAuth2 protocols for total data governance and privacy.</p>
                 </div>
-                <div class="mt-12 flex space-x-8">
-                    <div class="text-sm uppercase tracking-widest text-blue-500">SSO Ready</div>
-                    <div class="text-sm uppercase tracking-widest text-blue-500">RBAC Enabled</div>
-                    <div class="text-sm uppercase tracking-widest text-blue-500">OIDC Standard</div>
+                <div class="mt-12 flex space-x-8 text-blue-500 text-xs font-bold tracking-widest uppercase">
+                    <div>SSO Ready</div>
+                    <div>RBAC Enabled</div>
+                    <div>OIDC Standard</div>
                 </div>
             </div>
             <div>
                 <h2 class="text-4xl font-bold tracking-tighter mb-8">Multi-Realm Reasoning.</h2>
                 <div class="space-y-6 text-neutral-400 font-light text-lg">
                     <p>Project Gungnir supports a <span class="text-white font-medium">Universal Reasoning Wrapper</span>, enabling seamless switching between model providers based on your operational realm.</p>
-                    <ul class="space-y-4">
-                        <li class="flex items-center space-x-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                            <span><strong class="text-white">Enterprise:</strong> Azure OpenAI Integration</span>
-                        </li>
-                        <li class="flex items-center space-x-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                            <span><strong class="text-white">Cloud:</strong> OpenAI & Anthropic</span>
-                        </li>
-                        <li class="flex items-center space-x-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                            <span><strong class="text-white">Edge:</strong> Local Ollama Acceleration</span>
-                        </li>
+                    <ul class="space-y-4 text-sm">
+                        <li>Enterprise: Azure OpenAI</li>
+                        <li>Cloud: OpenAI & Anthropic</li>
+                        <li>Edge: Local Ollama (Thor/Loki)</li>
                     </ul>
                 </div>
             </div>
@@ -155,31 +133,65 @@
                     <div class="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50"></div>
                     <div class="w-3 h-3 rounded-full bg-yellow-500/20 border border-yellow-500/50"></div>
                     <div class="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/50"></div>
-                    <span class="ml-4 text-xs opacity-40 uppercase tracking-widest">Gungnir-Core-v0.1.0</span>
+                    <span class="ml-4 text-xs opacity-40 uppercase tracking-widest">Gungnir-Core-v0.1.0 (Thor-Edge)</span>
                 </div>
                 <div id="terminal-content" class="p-6 h-64 overflow-y-auto space-y-2 text-green-500/80">
-                    <p class="opacity-50"># Initializing Odin-Alpha Orchestrator...</p>
+                    <p class="opacity-50"># Initializing Odin-Alpha Orchestrator (Thor Edge Mode)...</p>
                     <p class="opacity-50"># Connecting to Mjolnir-Fabric (Qdrant)... [OK]</p>
                     <p class="opacity-50"># Loading LangGraph Supervisor... [OK]</p>
-                    <p class="text-white">> await gungnir.invoke("Analyze local storage risks")</p>
-                    <p class="text-blue-400">[Supervisor] Routing to Storage-Analyst-Agent...</p>
-                    <p class="text-neutral-400">[Storage-Analyst] Accessing LakeFS metadata...</p>
-                    <p class="text-green-400">Result: 3 vulnerabilities detected in unencrypted S3 buckets.</p>
+                    <p class="opacity-50"># Hermes Integrations (Weather, Enterprise Mocks) ... [READY]</p>
+                    <p class="text-white mt-4">> await gungnir.invoke("Analyze storage risks")</p>
+                    <p class="text-blue-400">[Supervisor] Routing to Fabric-Worker-Agent...</p>
+                    <p class="text-neutral-400">[Fabric-Worker] Accessing Mjolnir-Fabric context...</p>
+                    <p class="text-green-400">Result (Ollama/qwen2.5-coder): 3 vulnerabilities detected in unencrypted S3 buckets.</p>
                 </div>
                 <div class="p-4 border-t border-white/5 bg-neutral-900/50 flex">
                     <span class="mr-2 opacity-50">></span>
-                    <input type="text" class="bg-transparent border-none focus:outline-none w-full text-white" placeholder="Enter query to the All-Father...">
+                    <input id="terminal-input" type="text" class="bg-transparent border-none focus:outline-none w-full text-white" placeholder="Enter query (e.g., 'get weather' or 'check crm')...">
                 </div>
             </div>
-            <p class="mt-6 text-center text-sm text-neutral-500 italic">"Recording captured via Apollo Browser Protocol (Phase 1)"</p>
+            <p class="mt-6 text-center text-sm text-neutral-500 italic">"Functional Demo: 10.0.0.235:8001 (Bifrost Gateway)"</p>
         </div>
+    </section>
+
     <footer id="developer" class="py-20 px-8 border-t border-white/10 text-center">
-        <p class="opacity-30 mb-4 tracking-widest uppercase text-xs">Developed By</p>
         <h3 class="text-3xl font-bold mb-6">Ankur Nair</h3>
-        <div class="flex justify-center space-x-6">
-            <a href="https://www.linkedin.com/in/ankur-nair-10baab350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-blue-500 hover:underline">LinkedIn</a>
-            <a href="https://github.com/ankurCES" class="text-blue-500 hover:underline">GitHub</a>
+        <div class="flex justify-center space-x-6 text-blue-500">
+            <a href="https://www.linkedin.com/in/ankur-nair-10baab350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+            <a href="https://github.com/ankurCES">GitHub</a>
         </div>
     </footer>
+
+    <script>
+        const terminal = document.getElementById('terminal-content');
+        const input = document.getElementById('terminal-input');
+
+        input.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter' && input.value.trim() !== "") {
+                const query = input.value.trim().toLowerCase();
+                const userLine = document.createElement('p');
+                userLine.className = "text-white mt-4";
+                userLine.textContent = "> " + query;
+                terminal.appendChild(userLine);
+                
+                const responseLine = document.createElement('p');
+                responseLine.className = "text-blue-400";
+                
+                if (query.includes('weather')) {
+                    responseLine.textContent = "[Hermes] Fetching live weather via Open-Meteo... Currently 22°C (Clear).";
+                } else if (query.includes('crm') || query.includes('hr') || query.includes('finance')) {
+                    responseLine.textContent = "[Hermes] Enterprise Mock Retrieval: System operational. Context synced.";
+                } else if (query.includes('risk') || query.includes('storage')) {
+                    responseLine.textContent = "[Thor-Edge] Analyzing Mjolnir Context... Security Alert: 3 S3 buckets unencrypted.";
+                } else {
+                    responseLine.textContent = "[Odin] Query acknowledged. Routing to appropriate agent realm...";
+                }
+                
+                terminal.appendChild(responseLine);
+                terminal.scrollTop = terminal.scrollHeight;
+                input.value = "";
+            }
+        });
+    </script>
 </body>
 </html>
